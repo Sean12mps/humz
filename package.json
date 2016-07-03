@@ -17,7 +17,8 @@
     "grunt-contrib-htmlmin": "",
     "grunt-contrib-sass": "",
     "grunt-contrib-cssmin": "",
-    "jquery": ""
+    "jquery": "",
+    "angular": ""
   },
   "author": "Sean <sean.michael.piettojo@gmail.com> (http://www.cl0ckw0rks.com)",
   "license": "ISC"

@@ -1,21 +1,21 @@
-console.log('background.js');
+// console.log('background.js');
 
-var commands = require('./modules/ext-commands.js');
+// var commands = require('./modules/ext-commands.js');
 
-chrome.commands.onCommand.addListener( function ( command ) {
+// chrome.commands.onCommand.addListener( function ( command ) {
 
-	commands.execute( command );
+// 	commands.execute( command );
 
-} );
+// } );
 
-chrome.runtime.onMessage.addListener(
+// chrome.runtime.onMessage.addListener(
 
-	function( response, sender, sendResponse ) {
+// 	function( response, sender, sendResponse ) {
 
-		if ( typeof( response.command ) == 'undefined' ) return false;
+// 		if ( typeof( response.command ) == 'undefined' ) return false;
 
-		commands.execute( response.command, response );
+// 		commands.execute( response.command, response );
 
-	}
+// 	}
 	
-);
+// );
