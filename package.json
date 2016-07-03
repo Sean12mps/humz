@@ -1,0 +1,24 @@
+{
+  "name": "humz",
+  "version": "1.0.0",
+  "description": "Your personalized home.",
+  "main": "grunt.js",
+  "scripts": {
+    "test": "alpha"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-browserify": "^5.0.0",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-nodeunit": "~0.4.1",
+    "grunt-contrib-uglify": "~0.5.0",
+    "grunt-contrib-watch": "",
+    "grunt-html-convert": "",
+    "grunt-contrib-htmlmin": "",
+    "grunt-contrib-sass": "",
+    "grunt-contrib-cssmin": "",
+    "jquery": ""
+  },
+  "author": "Sean <sean.michael.piettojo@gmail.com> (http://www.cl0ckw0rks.com)",
+  "license": "ISC"
+}

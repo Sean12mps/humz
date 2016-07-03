@@ -1,0 +1,7 @@
+@import 'mods/colors';
+
+body {
+	header {
+		background-color: black;
+	}
+}

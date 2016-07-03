@@ -1,0 +1,36 @@
+{
+  "manifest_version": 2,
+
+  "name": "humz",
+  "description": "Your personalized home.",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": ["http://*/*"],
+      "js": ["pkg/assets/js/ext-ui.min.js","pkg/assets/js/ext-main.min.js"],
+      "css": ["pkg/assets/css/style.min.css"]
+    }
+  ],
+  "browser_action": {
+    "default_icon": "pkg/assets/img/icon.png",
+    "default_popup": "pkg/index.min.html"
+  },
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "http://*/*"
+  ],
+  "background": {
+    "scripts": ["pkg/assets/js/ext-ui.min.js","pkg/assets/js/ext-background.min.js"],
+    "persistent": true
+  },
+  "commands": {
+    "open_extension": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+S",
+        "mac": "Command+Shift+S"
+      },
+      "description": "Open extension feature"
+    }
+  }
+}

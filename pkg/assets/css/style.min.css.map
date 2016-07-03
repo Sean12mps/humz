@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,MAAO;EACN,KAAK,EAAE,OAAO;;;AAEf,MAAO;EACN,KAAK,EAAE,OAAO;;;ACDd,WAAO;EACN,gBAAgB,EAAE,KAAK",
+"sources": ["../../../app/sass/mods/_colors.scss","../../../app/sass/style.css"],
+"names": [],
+"file": "style.min.css"
+}
